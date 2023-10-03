@@ -35,6 +35,7 @@ body {
   color: var(--color-slate);
   font-style: normal;
   display: flex;
+  gap: 40px;
 }
 
 .logo {
@@ -191,9 +192,36 @@ body {
 .menu-elements {
   display: flex;
   gap: 40px;
+  list-style: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
 }
 
 .menu-link {
   padding: 24px 0;
-  gap: 40px
+  gap: 40px;
+  text-decoration: none;
+  color: var(--color-navy-blue);
+}
+
+.menu-link:hover {
+  color: var(--color-ocean);
+}
+
+.menu-link:focus {
+  color: var(--color-ocean);
+}
+
+.list-address {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  color: var(--color-slate);
+  font-style: normal;
+  list-style: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
