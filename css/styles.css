@@ -70,6 +70,7 @@ body {
   line-height: 1.5;
   color: var(--color-cloud);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .tag-line {
@@ -168,6 +169,7 @@ body {
 
 .footer-section {
   background-color: var(--color-navy-blue);
+  padding: 100px 0;
 }
 
 .navigation-bar {
@@ -281,4 +283,25 @@ body {
 
 .what-we-do-list-item {
   width: calc((100% - 48px) / 3);
+}
+
+.footer-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+  text-decoration: none;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.footer-link:hover {
+  color: var(--color-ocean);
+}
+
+.footer-link:focus {
+  color: var(--color-ocean);
 }
