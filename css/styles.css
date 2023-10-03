@@ -142,14 +142,6 @@ body {
   color: var(--color-navy-blue);
 }
 
-.values-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-navy-blue);
-}
-
 .goals {
   font-size: 16px;
   line-height: 1.5;
@@ -231,4 +223,43 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.values-section {
+  padding: 120px 0;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.values-main-list {
+  list-style: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+  display: flex;
+  gap: 24px;
+}
+
+.single-value {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.values-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+  margin-bottom: 8px;
 }
