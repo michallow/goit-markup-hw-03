@@ -10,8 +10,8 @@
 
 img {
   display: block;
-  }
-  
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-slate);
@@ -34,6 +34,7 @@ body {
 .address {
   color: var(--color-slate);
   font-style: normal;
+  display: flex;
 }
 
 .logo {
@@ -45,6 +46,7 @@ body {
   text-transform: uppercase;
   color: var(--color-iris);
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .link:hover {
@@ -165,4 +167,33 @@ body {
 
 .footer-section {
   background-color: var(--color-navy-blue);
+}
+
+.navigation-bar {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.navigation-bar-container {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navigation-bar-elements {
+  display: flex;
+  align-items: center;
+}
+
+.menu-elements {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-link {
+  padding: 24px 0;
+  gap: 40px
 }
