@@ -8,6 +8,10 @@
   --color-slate: #434455;
 }
 
+img {
+  display: block;
+  }
+  
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-slate);
