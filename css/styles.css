@@ -1,0 +1,164 @@
+:root {
+  --color-white: #ffffff;
+  --color-iris: #4d5ae5;
+  --color-navy-blue: #2e2f42;
+  --color-cloud: #f4f4fd;
+  --color-cornflower: #e7e9fc;
+  --color-ocean: #404bbf;
+  --color-slate: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
+
+.list {
+  list-style: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-navy-blue);
+}
+
+.address {
+  color: var(--color-slate);
+  font-style: normal;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-ocean);
+}
+
+.link:focus {
+  color: var(--color-ocean);
+}
+
+.logo-studio {
+  color: var(--color-navy-blue);
+}
+
+.logo-footer {
+  color: var(--color-cloud);
+}
+
+.paragraph-footer {
+  line-height: 1.5;
+  color: var(--color-cloud);
+  letter-spacing: 0.02em;
+}
+
+.tag-line {
+  background-color: var(--color-navy-blue);
+}
+
+.tag-line-header {
+  color: var(--color-white);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.main-button {
+  color: var(--color-white);
+  background: var(--color-iris);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  background-color: var(--color-ocean);
+}
+.main-button:focus {
+  background-color: var(--color-ocean);
+}
+
+.buttons {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
+  justify-content: center;
+}
+
+.buttons:hover {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+  cursor: pointer;
+}
+
+.buttons:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+  cursor: pointer;
+}
+
+.section-header {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+
+.values-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.goals {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.section-team {
+  background-color: var(--color-cloud);
+}
+
+.list-item {
+  background-color: var(--color-white);
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.footer-section {
+  background-color: var(--color-navy-blue);
+}
