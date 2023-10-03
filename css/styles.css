@@ -140,6 +140,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--color-navy-blue);
+  margin-bottom: 72px;
 }
 
 .goals {
@@ -252,7 +253,7 @@ body {
 }
 
 .single-value {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .values-list {
@@ -262,4 +263,22 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   margin-bottom: 8px;
+}
+
+.what-we-do {
+  padding-bottom: 120px;
+}
+
+.what-we-do-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.what-we-do-list-item {
+  width: calc((100% - 48px) / 3);
 }
