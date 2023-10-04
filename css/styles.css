@@ -253,6 +253,7 @@ body {
   color: var(--color-navy-blue);
   display: flex;
   gap: 24px;
+  padding: 0px;
 }
 
 .single-value {
