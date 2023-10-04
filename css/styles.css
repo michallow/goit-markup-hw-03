@@ -362,3 +362,28 @@ body {
   color: var(--color-slate);
   text-align: center;
 }
+
+.portfolio-all {
+  padding: 96px 0 120px 0;
+}
+
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.portfolio-button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid var(--color-cornflower);
+}
+
+.portfolio-button:hover {
+  border: 1px solid transparent;
+}
+
+.portfolio-button:focus {
+  border: 1px solid transparent;
+}
