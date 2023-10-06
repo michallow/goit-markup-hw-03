@@ -199,7 +199,7 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
 }
 
 .navigation-bar-elements {
@@ -377,6 +377,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);
   text-align: center;
+  font-weight: 400;
 }
 
 .portfolio-all {
